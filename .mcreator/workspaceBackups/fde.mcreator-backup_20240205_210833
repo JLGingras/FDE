@@ -43,42 +43,6 @@
           "src/main/java/net/mcreator/fde/item/ShulkerHeadItem.java"
         ]
       }
-    },
-    {
-<<<<<<< Updated upstream
-      "name": "YummyBrain",
-=======
-<<<<<<< HEAD
-      "name": "SpiderEgg",
-=======
-      "name": "YummyBrain",
->>>>>>> 0d99ce2d20d99db8f3d2730fe09292db27bb1925
->>>>>>> Stashed changes
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-      "registry_name": "spider_egg",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fde/models/item/spider_egg.json",
-          "src/main/java/net/mcreator/fde/item/SpiderEggItem.java"
-=======
->>>>>>> Stashed changes
-      "registry_name": "yummy_brain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fde/item/YummyBrainItem.java",
-          "src/main/resources/assets/fde/models/item/yummy_brain.json"
-<<<<<<< Updated upstream
-=======
->>>>>>> 0d99ce2d20d99db8f3d2730fe09292db27bb1925
->>>>>>> Stashed changes
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -86,10 +50,8 @@
   "language_map": {
     "en_us": {
       "item.fde.spider_gland": "Spider Gland",
-      "item.fde.spider_egg": "Spider Egg",
       "block.fde.infernal_furnace": "Infernal Furnace",
-      "item.fde.shulker_head": "Shulker Head",
-      "item.fde.yummy_brain": "Yummy Brain"
+      "item.fde.shulker_head": "Shulker Head"
     }
   },
   "foldersRoot": {

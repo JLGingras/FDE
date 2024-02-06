@@ -134,9 +134,21 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\joffr\Documents\Github\FDE\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+<<<<<<< Updated upstream
 Conflicting propagated mapping for net/mcreator/fde/item/ShulkerHeadItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/fde/item/SpiderGlandItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/fde/item/YummyBrainItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+=======
+<<<<<<< HEAD
+Conflicting propagated mapping for net/mcreator/fde/item/SpiderEggItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/fde/item/SpiderGlandItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/fde/item/ShulkerHeadItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+=======
+Conflicting propagated mapping for net/mcreator/fde/item/ShulkerHeadItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/fde/item/SpiderGlandItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/fde/item/YummyBrainItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+>>>>>>> 0d99ce2d20d99db8f3d2730fe09292db27bb1925
+>>>>>>> Stashed changes
 Conflicting propagated mapping for net/mcreator/fde/block/InfernalFurnaceBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
 Conflicting propagated mapping for net/mcreator/fde/block/InfernalFurnaceBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/fde/block/InfernalFurnaceBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
@@ -158,6 +170,7 @@ Writing Output: C:\Users\joffr\Documents\Github\FDE\build\reobfJar\output.jar
   assets/fde/models/item/
   assets/fde/models/item/infernal_furnace.json
   assets/fde/models/item/shulker_head.json
+  assets/fde/models/item/spider_egg.json
   assets/fde/models/item/spider_gland.json
   assets/fde/models/item/yummy_brain.json
   assets/fde/textures/
@@ -169,7 +182,15 @@ Writing Output: C:\Users\joffr\Documents\Github\FDE\build\reobfJar\output.jar
   assets/fde/textures/item/
   assets/fde/textures/item/shulkerhead.png
   assets/fde/textures/item/spider_gland.png
+<<<<<<< Updated upstream
   assets/fde/textures/item/yummy_brain.png
+=======
+<<<<<<< HEAD
+  assets/fde/textures/item/spideregg.png
+=======
+  assets/fde/textures/item/yummy_brain.png
+>>>>>>> 0d99ce2d20d99db8f3d2730fe09292db27bb1925
+>>>>>>> Stashed changes
   net/
   net/mcreator/
   net/mcreator/fde/
@@ -181,6 +202,7 @@ Writing Output: C:\Users\joffr\Documents\Github\FDE\build\reobfJar\output.jar
   net/mcreator/fde/init/FdeModItems.class
   net/mcreator/fde/item/
   net/mcreator/fde/item/ShulkerHeadItem.class
+  net/mcreator/fde/item/SpiderEggItem.class
   net/mcreator/fde/item/SpiderGlandItem.class
   net/mcreator/fde/item/YummyBrainItem.class
   pack.mcmeta
