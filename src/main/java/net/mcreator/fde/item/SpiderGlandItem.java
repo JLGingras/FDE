@@ -13,7 +13,7 @@ import java.util.List;
 
 public class SpiderGlandItem extends Item {
 	public SpiderGlandItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).meat().build()));
 	}
 
 	@Override

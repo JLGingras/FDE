@@ -46,7 +46,7 @@
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
+    "isMeat": true,
     "isAlwaysEdible": false,
     "animation": "eat"
   }
