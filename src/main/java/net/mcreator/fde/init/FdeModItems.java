@@ -13,12 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.fde.item.SpiderGlandItem;
+import net.mcreator.fde.item.ShulkerHeadItem;
 import net.mcreator.fde.FdeMod;
 
 public class FdeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FdeMod.MODID);
 	public static final RegistryObject<Item> SPIDER_GLAND = REGISTRY.register("spider_gland", () -> new SpiderGlandItem());
 	public static final RegistryObject<Item> INFERNAL_FURNACE = block(FdeModBlocks.INFERNAL_FURNACE);
+	public static final RegistryObject<Item> SHULKER_HEAD = REGISTRY.register("shulker_head", () -> new ShulkerHeadItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
