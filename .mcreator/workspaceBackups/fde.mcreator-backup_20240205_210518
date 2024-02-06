@@ -43,20 +43,6 @@
           "src/main/java/net/mcreator/fde/item/ShulkerHeadItem.java"
         ]
       }
-    },
-    {
-      "name": "YummyBrain",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "yummy_brain",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fde/item/YummyBrainItem.java",
-          "src/main/resources/assets/fde/models/item/yummy_brain.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -65,8 +51,7 @@
     "en_us": {
       "item.fde.spider_gland": "Spider Gland",
       "block.fde.infernal_furnace": "Infernal Furnace",
-      "item.fde.shulker_head": "Shulker Head",
-      "item.fde.yummy_brain": "Yummy Brain"
+      "item.fde.shulker_head": "Shulker Head"
     }
   },
   "foldersRoot": {
