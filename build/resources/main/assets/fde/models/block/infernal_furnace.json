@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fde:block/furnace_top",
+    "up": "fde:block/furnace_top",
+    "north": "fde:block/furnace_front_on",
+    "east": "fde:block/furnace_side",
+    "south": "fde:block/furnace_side",
+    "west": "fde:block/furnace_side",
+    "particle": "fde:block/furnace_top"
+  },
+  "render_type": "solid"
+}
