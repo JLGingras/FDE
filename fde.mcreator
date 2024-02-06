@@ -29,6 +29,20 @@
           "src/main/resources/assets/fde/models/item/spider_gland.json"
         ]
       }
+    },
+    {
+      "name": "ShulkerHead",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fde/models/item/shulker_head.json",
+          "src/main/java/net/mcreator/fde/item/ShulkerHeadItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,7 +50,8 @@
   "language_map": {
     "en_us": {
       "item.fde.spider_gland": "Spider Gland",
-      "block.fde.infernal_furnace": "Infernal Furnace"
+      "block.fde.infernal_furnace": "Infernal Furnace",
+      "item.fde.shulker_head": "Shulker Head"
     }
   },
   "foldersRoot": {
