@@ -3,7 +3,6 @@
     {
       "name": "InfernalFurnace",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernal_furnace",
@@ -15,27 +14,12 @@
           "src/main/java/net/mcreator/fde/block/InfernalFurnaceBlock.java"
         ]
       }
-    },
-    {
-      "name": "SpiderGland",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spider_gland",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fde/item/SpiderGlandItem.java",
-          "src/main/resources/assets/fde/models/item/spider_gland.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.fde.spider_gland": "Spider Gland",
       "block.fde.infernal_furnace": "Infernal Furnace"
     }
   },

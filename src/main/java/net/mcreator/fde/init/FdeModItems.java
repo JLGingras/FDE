@@ -12,10 +12,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.fde.item.SpiderGlandItem;
 import net.mcreator.fde.FdeMod;
 
 public class FdeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FdeMod.MODID);
+	public static final RegistryObject<Item> SPIDER_GLAND = REGISTRY.register("spider_gland", () -> new SpiderGlandItem());
 	public static final RegistryObject<Item> INFERNAL_FURNACE = block(FdeModBlocks.INFERNAL_FURNACE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
